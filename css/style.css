@@ -1,0 +1,336 @@
+/*---Common Style satart---*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,900&display=swap');
+html{
+    box-sizing: border-box;
+}
+*{
+ margin: 0;
+ padding: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+    border: none;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,.navbar{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato',sans-serif;
+}
+/*---Common Style---*/
+.navigation{
+    height: 100vh;
+    background-image: url('../img/HeyU-Landing-Page-Symu_co.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    position: relative;
+}
+.navigation .navbar {
+    padding: 35px 50px;
+}
+
+.navbar .nav-link {
+    color:#fff;
+    font-weight: 400;
+}
+
+.navigation .navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration:line-through;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-family: 'Lato Black',sans-serif;
+    font-size: 40px;
+}
+
+/* End Navbar Sectiom */
+.custom{
+ position: absolute;
+    top: 30%;
+    left: 20%;     
+}
+.banner-content h1{
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Lato',sans-serif;
+}
+.banner-content p{
+    margin-bottom: 70px;
+    color: #fff;
+    font-size: 18px;
+}
+.butoon-cus{
+    background: #fff;
+    color: #f01453;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+.butoon-cus:hover{
+    color: #f4366c;
+}
+.banner-img img{
+    width: 70%;
+    height: auto;
+    margin-top: -60px;
+    margin-left: 40px;
+   height:600;
+}
+/* End Banner Sectiom */
+
+.massage-section{
+    padding: 50px 0px;
+}
+.massage-image img{
+    width: 100%;
+    margin-left:;
+}
+}
+.img-fk{
+    float: left;
+    margin-left: -50px;
+}
+.massage-heading{
+    padding: 200px 5px;
+}
+.massage-heading h2{
+    color: #363636;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lato'; 
+}
+.massage-heading p{
+    color: #808080;
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Lato';
+    line-height: 30px;
+    margin-top: 30px;
+        
+}
+.massage-heading span{
+    color:#df193e;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lato'    
+}
+.sec{
+    padding: 0;
+}
+/*End Massage*/
+.clint-section{
+    padding: 80px 0px;
+}
+.heading-large{
+    text-align: center;
+     color: #363636;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lato'; 
+}
+.heading-large span{
+     color:#df193e;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lato' 
+}
+.clint-content{
+    padding: 15px 20px;
+    border:1px solid #e0e0e0;
+    line-height: 32px;
+    letter-spacing: .5px;
+    position: relative;
+    transition: 0.5s;
+}
+.clint-content p{
+    color: #808080;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+}
+.client-link{
+    margin-top: 20px;
+    color: #df193e;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+.client-link:hover{
+    color:#e82f2f; 
+}
+.all-border{
+    padding: 40px 0px;
+    
+}
+.mars{
+    width: 90%;
+}
+.triangle {
+ display: block;
+ height: 20px;
+ width: 20px;
+ background: white;
+ border: inherit;
+ position: absolute;
+ bottom: -10px;
+ left: calc(50% - 10px);
+ clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+ transform: rotate(-45deg);
+ border-radius: 0 0 0 0.25em;
+ left: 6%;
+
+}
+.media-body h5{
+    color: #363636;
+    font-size: 25px;
+    
+}
+.media-body p{
+    color: #ccd0d7;
+     font-size: 20px;
+}
+.mars{
+    margin: 0px 0px;
+}
+
+.clint-content:hover{
+    border:none;
+    background: #fff;
+     box-shadow: 0px 20px 10px 11px rgba(204, 204, 204, 0.38);
+    margin-top: -20px;
+}
+.rhg{
+    text-align: right;
+}
+.conversion{
+    position: relative;
+    padding: 100px 0px;
+   background-image: linear-gradient(to bottom, rgba(217, 7, 70), rgba(235,63,45));
+    margin-top: 100px;
+}
+.conversion-content h5{
+    color: #fff;
+    font-size: 24px;
+}
+.conversion-content p{
+    font-size: 16px;
+    color: #ee9ca4;
+}
+.rhg i{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 35px;
+    font-weight: 300;
+}
+.rhg-r i{
+   color: #fff;
+    font-size: 35px;
+    margin-right: 35px;
+    font-weight: 300;
+}
+.massage-image-mobile{
+    position: absolute;
+    top: -17%;
+    left: 36%;
+}
+.massage-image-mobile img{
+    width: 90%;
+    height: 50%;
+}
+.newslater{
+    text-align: center;
+    padding: 200px 0px;
+    position: relative;
+}
+.input-jhamela .input-group{
+    width: 45%;
+    margin: 50px auto;
+    position: absolute;
+    left: 25%;
+}
+.newslater-content h3{
+     text-align: center;
+     color: #363636;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lato'; 
+}
+.newslater-content span{
+    color:#df193e;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lato' 
+}
+.newslater-content p{
+    color: #808080;
+    font-size: 16px;
+    margin: 30px 0px;
+}
+.input-jhamela .input-group input{
+    background: #f8f8f8;
+    padding: 5px 20px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #808080;
+    left: 10%;
+    
+}
+.input-jhamela .input-group-append button{
+    padding: 10px 60px;
+    border-radius:30px;
+   background-image: linear-gradient(to bottom, rgba(217, 7, 70), rgba(235,63,45));
+    
+}
+.input-group-append button:hover{
+    box-shadow: 10px 10px 10px 10px rgba(214, 213, 213, 0.38);;
+}
+.app-section{
+    text-align: center;
+    padding: 80px 0px;
+}
+.app-image{
+    padding: 20px 0px;
+}
+.footer .navbar{
+    padding: 20px 50px;
+    margin-top: -15px;
+}
+.footer .navbar .nav-item{
+    padding: 10px 40px;
+}
+.footer .navbar-nav .nav-link{
+    color:#363636;
+    text-transform: uppercase;
+}
+.selection-bn-en{
+    background: #f8f8f8;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.selection-bn-en .selectpicker{
+    border:none;
+    padding: 0px 10px;
+    background: transparent;
+}
+.selection-bn-en .selectpicker:focus{
+    border: none;
+}
+.goToTop {
+  position:fixed;
+  top:0;
+  height:70px;
+  z-index:1;
+}
